@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/your-repo/nginx-php-mysql.git'
+                git 'https://github.com/yung598/nginx-php-mysql.git'
             }
         }
 
